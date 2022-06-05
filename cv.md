@@ -30,3 +30,8 @@ function areaLargestSquare(r) {
 ## Education
 * __Gomel State College of Arts. N. F. Sokolovsky__ - _bassoon class
 
+## Self-Education
+* [freeCodeCamp](https://freecodecamp.org)
+* [W3Schools](https://www.w3schools.com/)
+* [learnJavaScript](https://learn.javascript.ru/)
+
