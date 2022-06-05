@@ -27,3 +27,6 @@ function areaLargestSquare(r) {
 }
 ```
 
+## Education
+* __Gomel State College of Arts. N. F. Sokolovsky__ - _bassoon class
+
