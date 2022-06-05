@@ -1,1 +1,1 @@
-# rsschool-cv
+# [rsschool-cv](https://bug-of-evol.github.io/rsschool-cv/cv)
