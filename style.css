@@ -53,3 +53,29 @@ nav {
   background-color: blueviolet;
   height: 348px;
 }
+
+.photo {
+  width: 180px;
+}
+
+.hero {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 7px;
+  padding: 1px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  letter-spacing: 6px;
+  padding: 1px;
+}
+
