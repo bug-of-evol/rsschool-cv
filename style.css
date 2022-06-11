@@ -79,3 +79,52 @@ h2 {
   padding: 1px;
 }
 
+.container__skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.skill__bar {
+  background-color: white;
+  height: 200px;
+  margin: -250px -25px;
+}
+
+.skill {
+  color: white;
+}
+
+.title__skill {
+  margin-left: 50px;
+}
+
+.html__skill {
+  height: 65%;
+  background-color: red;
+}
+
+.css__skill {
+  height: 50%;
+  background-color: maroon;
+}
+
+.js__skill {
+  height: 25%;
+  background-color: blue;
+}
+
+.git__skill {
+  height: 50%;
+  background-color: green;
+}
+
+.title__skill {
+  position: relative;
+  left: 100px;
+  bottom: 35px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
