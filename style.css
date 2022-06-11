@@ -128,3 +128,18 @@ h2 {
   letter-spacing: 3px;
 }
 
+.container__summary {
+  background-color: gray;
+  position: relative;
+  bottom: 25px;
+  width: 555px;
+  padding: 5px;
+}
+
+.description {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+}
+
