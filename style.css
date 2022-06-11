@@ -143,3 +143,19 @@ h2 {
   line-height: 25px;
 }
 
+.container__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: black;
+  width: 51.6%;
+  position: relative;
+  left: 555px;
+  bottom: 185px;
+}
+
+.adrs {
+  color: white;
+  padding: 17.6px;
+}
+
