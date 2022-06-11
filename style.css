@@ -1,78 +1,250 @@
-/* Указываем box sizing */
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
-}
-
-/* Убираем внутренние отступы */
-ul[class],
-ol[class] {
+  margin: 0;
   padding: 0;
 }
 
-/* Убираем внешние отступы */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Выставляем основные настройки по-умолчанию для body */
-body {
-  min-height: 100vh;
+html {
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
-  list-style: none;
+body {
+  background-color: wheat;
 }
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+.header__wrapper {
+  margin: 0 auto;
+  width: 100%;
+  background-color: brown;
 }
 
-/* Упрощаем работу с изображениями */
-img {
-  max-width: 100%;
-  display: block;
+nav {
+  height: 50px;
 }
 
-/* Указываем понятную периодичность в потоке данных у article*/
-article > * + * {
-  margin-top: 1em;
+.menu__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-/* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+.menu__item {
+  list-style-type: none;
+  display: flex;
 }
 
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+.menu__link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.menu__link:hover {
+  color: wheat;
+  font-size: 17px;
+}
+
+.main__wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.main {
+  background-color: blueviolet;
+  height: 348px;
+}
+
+.photo {
+  width: 180px;
+}
+
+.hero {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 7px;
+  padding: 1px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  letter-spacing: 6px;
+  padding: 1px;
+}
+
+.container__skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.skill__bar {
+  background-color: white;
+  height: 200px;
+  margin: -250px -25px;
+}
+
+.skill {
+  color: white;
+}
+
+.title__skill {
+  margin-left: 50px;
+}
+
+.html__skill {
+  height: 65%;
+  background-color: red;
+}
+
+.css__skill {
+  height: 50%;
+  background-color: maroon;
+}
+
+.js__skill {
+  height: 25%;
+  background-color: blue;
+}
+
+.git__skill {
+  height: 50%;
+  background-color: green;
+}
+
+.title__skill {
+  position: relative;
+  left: 100px;
+  bottom: 35px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.container__summary {
+  background-color: gray;
+  position: relative;
+  bottom: 25px;
+  width: 555px;
+  padding: 5px;
+}
+
+.description {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.container__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: black;
+  width: 51.6%;
+  position: relative;
+  left: 555px;
+  bottom: 185px;
+}
+
+.adrs {
+  color: white;
+  padding: 17.6px;
+}
+
+.container__education {
+  background-color: rgb(38, 20, 20);
+  position: relative;
+  bottom: 185px;
+  padding: 15px;
+  width: 555px;
+}
+
+.edu__list {
+  list-style-type: none;
+  text-align: center;
+  padding: 15px;
+}
+
+.edu__link {
+  text-decoration: none;
+  color: wheat;
+  text-align: center;
+}
+
+.self__edu {
+  line-height: 35px;
+  color: wheat;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container__languages {
+  background-color: gray;
+  width: 592px;
+  position: relative;
+  left: 555px;
+  bottom: 452px;
+}
+
+.lang__item {
+  color: white;
+  padding: 31px;
+  font-size: 24px;
+}
+
+.lang__list {
+  list-style-type: none;
+}
+
+.container__code {
+  background-color: rgb(41, 48, 171);
+  position: relative;
+  bottom: 452px;
+}
+
+.code__example {
+  color: white;
+  font-size: 24px;
+}
+
+.codewars {
+  text-decoration: none;
+  color: wheat;
+  position: relative;
+  left: 550px;
+  bottom: 35px;
+  font-size: 18px;
+}
+
+.footer__wrapper {
+  background-color: brown;
+  position: relative;
+  top: 631px;
+}
+
+.footer__logo {
+  width: 75px;
+}
+
+.footer__link {
+  display: flex;
+  padding: 5px;
+}
+
+.footer__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
