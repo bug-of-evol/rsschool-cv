@@ -208,3 +208,23 @@ h2 {
   list-style-type: none;
 }
 
+.container__code {
+  background-color: rgb(41, 48, 171);
+  position: relative;
+  bottom: 452px;
+}
+
+.code__example {
+  color: white;
+  font-size: 24px;
+}
+
+.codewars {
+  text-decoration: none;
+  color: wheat;
+  position: relative;
+  left: 550px;
+  bottom: 35px;
+  font-size: 18px;
+}
+
