@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+  <div class="header__wrapper">
+    <header class="header">
+      <div class="header__container">
+        <nav>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#aboutme" class="menu__link">About Me</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills" class="menu__link">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="#education" class="menu__link">Education</a>
+            </li>
+            <li class="menu__item">
+              <a href="#languages" class="menu__link">Languages</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts" class="menu__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <div class="main__wrapper">
+    <div class="main">
+      <div class="hero">
+        <h1>Dzianis Kiliakou</h1>
+        <h2>JUNIOR FRONT-END DEVELOPER</h2>
+      </div>
+      <img src="img/my_photo_0.jpg" alt="my photo" class="photo" id="skills">
+      <div class="container__skills">
+        <p class="title__skill">HTML</p>
+        <div class="skill__bar">
+          <div class="html__skill skill">65%</div>
+        </div>
+        <p class="title__skill">CSS</p>
+        <div class="skill__bar">
+          <div class="css__skill skill">50%</div>
+        </div>
+        <p class="title__skill">JavaScript</p>
+        <div class="skill__bar">
+          <div class="js__skill skill">25%</div>
+        </div>
+        <p class="title__skill">Git / GitHub</p>
+        <div class="skill__bar">
+          <div class="git__skill skill">50%</div>
+        </div>
+      </div>
+      <div class="container__summary" id="aboutme">
+        <p class="description">My name's Dzianis.</p>
+        <p class="description">I'm 35 years old.</p>
+        <p class="description">I'm musician.</p>
+        <p class="description">But I also like programming very much.</p>
+        <p class="description">And I believe that RSSchool as well as a friendly community will help me achieve my goal.</p>
+      </div>
+      <div class="container__contacts" id="contacts">
+        <address class="adrs">Location: Gomel, Belarus</address>
+        <address class="adrs">Phone: +375 (29) 735-48-72</address>
+        <address class="adrs">E-mail: pianodenis86@gmail.com</address>
+      </div>
+      <div class="container__education" id="education">
+        <p class="title">Education:</p>
+        <ul class="edu__list">
+          <li class="edu__item">
+            <a href="https://ggki.by/" target="_blank" class="edu__link">Gomel State College of Arts. N. F. Sokolovsky [ bassoon class]</a>
+          </li>
+        </ul>
+        <p class="title">Self-Education:</p>
+        <ul class="edu__list">
+          <li class="edu__item">
+            <a href="https://www.freecodecamp.org/" target="_blank" class="self__edu edu__link">freeCodeCamp</a>
+          </li>
+          <li class="edu__item">
+            <a href="https://www.w3schools.com/" target="_blank" class="self__edu edu__link">W3Schools</a>
+          </li>
+          <li class="edu__item">
+            <a href="https://javascript.info/" target="_blank" class="self__edu edu__link">learnJavaScript</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container__languages" id="languages">
+        <ul class="lang__list">
+          <li class="lang__item">Belarusian: native speaker</li>
+          <li class="lang__item">Russian: native speaker</li>
+          <li class="lang__item">English: A2</li>
+        </ul>
+      </div>
+      <div class="container__code">
+        <pre>
+          <code class="code__example">
+            function areaLargestSquare(r) {
+              if (Number.isNaN(r)) throw 'data type error...';
+              return (r * r) * 2;
+            }
+          </code>
+        </pre>
+        <a href="https://www.codewars.com/users/bug_of_evol" target="_blank" class="codewars">More code examples...</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__wrapper">
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="https://rs.school/" target="_blank" class="footer__link">
+          <img src="img/rs_school_js.svg" alt="RSSchool" class="footer__logo">
+        </a>
+        <a href="https://rs.school/js-stage0/" target="_blank" class="footer__link">
+          <img src="img/2022.svg" alt="2022" class="footer__logo">
+        </a>
+        <a href="https://github.com/bug-of-evol" target="_blank" class="footer__link">
+          <img src="img/github.svg" alt="GitHub" class="footer__logo">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
