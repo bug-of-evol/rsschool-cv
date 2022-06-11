@@ -43,3 +43,13 @@ nav {
   color: wheat;
   font-size: 17px;
 }
+
+.main__wrapper {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.main {
+  background-color: blueviolet;
+  height: 348px;
+}
