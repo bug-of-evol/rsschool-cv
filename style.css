@@ -190,3 +190,21 @@ h2 {
   text-align: center;
 }
 
+.container__languages {
+  background-color: gray;
+  width: 592px;
+  position: relative;
+  left: 555px;
+  bottom: 452px;
+}
+
+.lang__item {
+  color: white;
+  padding: 31px;
+  font-size: 24px;
+}
+
+.lang__list {
+  list-style-type: none;
+}
+
