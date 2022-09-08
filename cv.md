@@ -13,3 +13,9 @@ My name's Dzianis. I'm 35 years old. I'm musician.\
 But I also like programming very much.\
 And I believe that RSS as well as a friendly community will help me achieve my goal.
 
+## Skills
+* __HTML__ (_basics_)
+* __CSS__ (_basics_)
+* __JavaScript__ (_basics_)
+* __Git__ / __GitHub__
+
