@@ -35,3 +35,7 @@ function areaLargestSquare(r) {
 * [W3Schools](https://www.w3schools.com/)
 * [learnJavaScript](https://learn.javascript.ru/)
 
+## Languages
+* __Belarusian__ - _native speaker_
+* __Russian__ - _native speaker_
+* __English__ - _A2_
