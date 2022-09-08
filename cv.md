@@ -19,3 +19,11 @@ And I believe that RSS as well as a friendly community will help me achieve my g
 * __JavaScript__ (_basics_)
 * __Git__ / __GitHub__
 
+## Code Example
+```
+function areaLargestSquare(r) {
+        if (Number.isNaN(r)) throw 'data type error...';
+        return (r * r) * 2;
+}
+```
+
